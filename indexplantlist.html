@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenhouse Plant Information</title>
+    <link rel="stylesheet" href="styleplantlist.css">
+</head>
+<body>
+    <div class="greenhouse">
+        <h1>Greenhouse Plant Information</h1>
+        <a href="index.html">
+            <div class="linktohome">
+                Home
+            </div>
+        </a>
+        <table id="plant-table">
+            <thead>
+                <tr>
+                    <th>Plant Name</th>
+                    <th>Plant Location</th>
+                    <th>Batch Number</th>
+                    <th>Plant Description</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows will be dynamically added here -->
+            </tbody>
+        </table>
+        <div class="add-form">
+            <input type="text" id="plant-name" placeholder="Plant Name">
+            <input type="text" id="plant-location" placeholder="Plant Location">
+            <input type="text" id="batch-number" placeholder="Batch Number">
+            <input type="text" id="plant-description" placeholder="Plant Description">
+            <button onclick="addPlant()">Add Plant</button>
+        </div>
+    </div>
+
+    <script src="indexplantlist.js"></script>
+</body>
+</html>
+

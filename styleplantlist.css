@@ -1,0 +1,70 @@
+        /* Greenhouse style */
+        body {
+            background: linear-gradient(to top, gray, lightgray);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+        }
+        .greenhouse {
+            background-color: #f0f8f0;
+            border: 1px solid #80c080;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 900px; /* Increased width for the table */
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #008000;
+            float:left;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #80c080;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #c0e8c0;
+        }
+        tr:nth-child(even) {
+            background-color: #f0f8f0;
+        }
+        .add-form {
+            margin-top: 20px;
+        }
+        .add-form input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .add-form button {
+            background-color: #008000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .remove-button {
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .linktohome {
+            background-color:cornflowerblue;
+            color: aliceblue;
+            font-size: 25px;
+            padding:10px;
+            border-radius: 10px;
+            margin-left: 50px;
+            margin-top: 15px;
+            float: left;
+            
+        }
